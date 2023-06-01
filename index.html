@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Camera Web App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="preview">
+        <video autoplay id="preview" class="preview-video"></video>
+        <canvas id="photoCanvas" class="photo-canvas"></canvas>
+      </div>
+    </div>
+
+    <!--button-->
+
+    <div class="buttons">
+        <button onclick="takePhoto()" class="click-pic-btn">Shoot Photo</button>
+        <button onclick="savePhoto()" class="save-pic-btn">Save Photo</button>
+    </div>
+    <script src="script.js"></script>
+
+    <!--Filter-->
+    <div class="filter-box">
+      <select id="filterSelect" class="filter-select" onchange="applyFilter()">
+        <option select disabled value="">No filters</option>
+        <option  value="blur">blur</option>
+        <option  value="gyroscale">gyroscale</option>
+        <option  value="contrast">contrast</option>
+      </select>
+
+    </div>
+  </body>
+</html>

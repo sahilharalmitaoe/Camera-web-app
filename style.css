@@ -1,0 +1,62 @@
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-video {
+    max-width: 30rem;
+    max-height: 30rem;
+    border-radius: 10px;
+    background-color:red;
+    margin: 1rem;
+}
+
+.photo-canvas {
+    max-width: 30rem;
+    max-height: 30rem;
+    border-radius: 10px;
+    background-color: green;
+    margin: 1rem;
+}
+
+.buttons {
+    display: flex;
+    margin: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .click-pic-btn {
+    border: none;
+    padding: 1rem;
+    background-color: #ff3b30;
+    font-size: 16px;
+    color: #fafafa;
+    margin: .5rem;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .save-pic-btn {
+    border: none;
+    background-color: #4cd964;
+    font-size: 16px;
+    color: #fafafa;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filter-box {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .filter-select {
+    padding: 0.5rem;
+    margin: 1rem;
+  }
